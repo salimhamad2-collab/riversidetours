@@ -24,9 +24,7 @@ button {
 
 .hero {
   min-height: 680px;
-  background:
-    linear-gradient(rgba(9, 45, 36, 0.62), rgba(9, 45, 36, 0.72)),
-    url('/src/assets/hero.jpg') center/cover no-repeat;
+ background: linear-gradient(135deg, #17352d, #2f6f5e);
   color: white;
   position: relative;
 }
