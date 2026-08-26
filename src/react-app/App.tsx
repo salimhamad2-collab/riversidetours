@@ -35,12 +35,12 @@ function App() {
     },
     {
       title: 'Birdwatching',
-      text: 'Discover the beautiful birdlife around the river.',
+      text: 'Discover the Magic of Kongo River.',
       icon: '🐦',
     },
     {
       title: 'River Excursions',
-      text: 'Explore nature and enjoy memorable riverside experiences.',
+      text: 'Your Adventure. Our Tradition',
       icon: '🌴',
     },
   ]
@@ -91,7 +91,36 @@ function App() {
             ))}
           </div>
         </section>
+<section className="why-us">
+  <p className="eyebrow">WHY CHOOSE US</p>
+  <h2>Adventure With a Difference</h2>
 
+  <div className="why-grid">
+    <div className="why-card">
+      <div className="icon">🌴</div>
+      <h3>Authentic Experiences</h3>
+      <p>Explore the beauty and culture of Kenya's South Coast.</p>
+    </div>
+
+    <div className="why-card">
+      <div className="icon">🌊</div>
+      <h3>Water Adventures</h3>
+      <p>Enjoy kayaking, paddleboarding and canoeing.</p>
+    </div>
+
+    <div className="why-card">
+      <div className="icon">🌅</div>
+      <h3>Unforgettable Moments</h3>
+      <p>Sunsets, nature and experiences worth remembering.</p>
+    </div>
+
+    <div className="why-card">
+      <div className="icon">🤝</div>
+      <h3>Personalized Experiences</h3>
+      <p>Choose experiences and packages that suit your adventure.</p>
+    </div>
+  </div>
+</section>
         <section className="cta">
           <h2>Ready for Your Riverside Adventure?</h2>
           <p>Contact us on WhatsApp and let's plan your experience.</p>
