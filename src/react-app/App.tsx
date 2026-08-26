@@ -48,10 +48,18 @@ function App() {
   return (
     <div className="app">
       <header className="hero">
-        <nav className="navbar">
-          <div className="logo">Riverside Tours & Safaris</div>
-          <button onClick={bookOnWhatsApp}>Book Now</button>
-        </nav>
+       <nav className="navbar">
+  <div className="logo">Riverside Tours & Safaris</div>
+
+  <div className="nav-links">
+    <a href="#home">Home</a>
+    <a href="#experiences">Experiences</a>
+    <a href="#why-us">Why Us</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <button onClick={bookOnWhatsApp}>Book Now</button>
+</nav>
 
         <div className="hero-content">
           <p className="eyebrow">EXPLORE • DISCOVER • EXPERIENCE</p>
