@@ -312,3 +312,40 @@ footer p {
     display: none;
   }
 }
+.about {
+  background: #ffffff;
+  padding: 90px 30px;
+}
+
+.about-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about .eyebrow {
+  color: #c48725;
+}
+
+.about h2 {
+  font-size: clamp(32px, 5vw, 48px);
+  margin: 10px 0 25px;
+  color: #17352d;
+}
+
+.about p:not(.eyebrow) {
+  color: #687a73;
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0 auto 18px;
+}
+
+@media (max-width: 600px) {
+  .about {
+    padding: 65px 20px;
+  }
+
+  .about p:not(.eyebrow) {
+    font-size: 16px;
+  }
+}
