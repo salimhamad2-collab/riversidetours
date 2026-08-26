@@ -290,3 +290,25 @@ footer p {
   margin-left: 0;
   margin-right: 0;
 }
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .nav-links {
+    display: none;
+  }
+}
