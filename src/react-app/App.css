@@ -218,3 +218,60 @@ footer p {
     padding-right: 20px;
   }
 }
+.why-us {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 30px;
+  text-align: center;
+}
+
+.why-us .eyebrow {
+  color: #c48725;
+}
+
+.why-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.why-card {
+  background: white;
+  padding: 30px 22px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(20, 55, 45, 0.08);
+  text-align: center;
+  min-width: 0;
+}
+
+.why-card .icon {
+  font-size: 38px;
+}
+
+.why-card h3 {
+  font-size: 19px;
+  margin: 12px 0;
+}
+
+.why-card p {
+  color: #687a73;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-us {
+    padding: 60px 20px;
+  }
+}
