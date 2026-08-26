@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="app">
-      <header className="hero">
+     <header className="hero" id="home">
        <nav className="navbar">
   <div className="logo">Riverside Tours & Safaris</div>
 
@@ -85,7 +85,7 @@ function App() {
           </p>
         </section>
 
-        <section className="activities">
+      <section className="activities" id="experiences"> 
           <h2>Our Experiences</h2>
 
           <div className="cards">
@@ -99,7 +99,7 @@ function App() {
             ))}
           </div>
         </section>
-<section className="why-us">
+<section className="why-us" id="why-us">
   <p className="eyebrow">WHY CHOOSE US</p>
   <h2>Adventure With a Difference</h2>
 
@@ -129,7 +129,7 @@ function App() {
     </div>
   </div>
 </section>
-        <section className="cta">
+       <section className="cta" id="contact">
           <h2>Ready for Your Riverside Adventure?</h2>
           <p>Contact us on WhatsApp and let's plan your experience.</p>
           <button className="primary-button" onClick={bookOnWhatsApp}>
