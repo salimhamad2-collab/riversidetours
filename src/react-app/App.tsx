@@ -98,7 +98,21 @@ function App() {
               </article>
             ))}
           </div>
-        </section>
+      <section className="about" id="about">
+  <div className="about-content">
+    <p className="eyebrow">ABOUT RIVERSIDE TOURS & SAFARIS</p>
+    <h2>Adventure. Nature. Memories.</h2>
+    <p>
+      We create memorable experiences on Kenya's beautiful South Coast,
+      combining adventure, nature and authentic local experiences.
+    </p>
+    <p>
+      From watersports and river excursions to breathtaking sunsets and
+      nature adventures, every experience is designed to help you explore,
+      relax and create lasting memories.
+    </p>
+  </div>
+</section>  </section>
 <section className="why-us" id="why-us">
   <p className="eyebrow">WHY CHOOSE US</p>
   <h2>Adventure With a Difference</h2>
