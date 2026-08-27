@@ -30,7 +30,7 @@ button {
 
 .hero {
   min-height: 680px;
- background: linear-gradient(135deg, #17352d, #2f6f5e);
+background: url('/assets/hero-sunset.jpg') center/cover no-repeat;
   color: white;
   position: relative;
 }
