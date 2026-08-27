@@ -40,6 +40,8 @@ background: url('./assets/sunset-kayak.jpg') center/cover no-repeat;
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
 }
 .navbar {
   max-width: 1200px;
