@@ -59,8 +59,9 @@ function App() {
     <a href="#contact">Contact</a>
   </div>
 
-  <button onClick={bookOnWhatsApp}>Book Now</button>
-</nav>
+<button className="primary-button" onClick={bookOnWhatsApp}>
+  Book Now
+</button>
 
         <div className="hero-content">
           <p className="eyebrow">EXPLORE • DISCOVER • EXPERIENCE</p>
