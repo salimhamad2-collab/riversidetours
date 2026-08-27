@@ -9,8 +9,8 @@ function App() {
         'Hello Riverside Tours & Safaris, I would like to make a booking.'
       )}`,
       '_blank'
-    )
-  }
+     );
+  };
 
   const activities = [
     {
