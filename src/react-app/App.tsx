@@ -59,14 +59,9 @@ function App() {
     <a href="#contact">Contact</a>
   </div>
 
-<a
-  className="primary-button"
-  href="https://wa.me/254718012630?text=Hello%20Riverside%20Tours%20%26%20Safaris%2C%20I%20would%20like%20to%20make%20a%20booking."
-  target="_blank"
-  rel="noopener noreferrer"
->
+<button className="primary-button" onClick={bookOnWhatsApp}>
   Book Now
-</a>
+</button>
 
         <div className="hero-content">
           <p className="eyebrow">EXPLORE • DISCOVER • EXPERIENCE</p>
